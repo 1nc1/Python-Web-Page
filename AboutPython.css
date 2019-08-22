@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    width: 970px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(48, 105, 152);
+}
+
+#header-content-left {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo { /* ABSOLUTE IMG */
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#header-content-right {
+    display: inline-block;
+    margin-left: 250px;
+}
+
+#header-content-right h6 {
+    color: rgb(230, 230, 230);
+    font-size: 14px;
+    margin-left: 120px;
+    margin-top: 15px;
+    font-weight: 100;
+}
+
+#header-content-right a {
+    color: rgb(240, 213, 82);
+}
+
+#header-content-right span {
+    color: black;
+}
+
+#header-content-right input {
+    height: 35px;
+    box-shadow: 0 0 0;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#input-div {
+    background-color: rgb(83, 83, 83);
+    padding: 10px 25px 15px 45px;
+    margin: 10px 0 0 20px;
+    border-radius: 12px;
+    width: 230px;
+    box-shadow: 2px 2px 4px black;
+}
+
+#input-div input[type=button] {
+    padding: 8px 10px 20px 10px;
+    border-radius: 8px;
+    color: rgb(230, 230, 230);
+    background-color: rgb(48, 105, 152);
+    vertical-align: -2px;
+    margin: 0 0 0 6px;
+}
+
+#input-div input[type="text"]::placeholder {
+    color: rgb(172, 172, 172);
+}
+
+#nav-bar {
+    text-align: center;
+}
+
+#directory-links {
+    display: inline-block;
+    background-color: rgb(75, 139, 190);
+    color: rgb(230, 230, 230);
+    padding: 9px 20px 9px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    margin: 30px 0 0 0;
+}
+
+#directory-links li {
+    display: inline-block;
+    font-size: 24px;
+    margin: 5px 15px 5px 15px;
+}
+
+#side-nav-bar {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 45px;
+}
+
+#second-directory-links {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 0 0 0 40px;
+}
+
+#second-directory-links li {
+    padding-left: 1em;
+    text-indent: 1em;
+    margin: 0px 0 9px 0;
+    font-size: 17px;
+}
+
+#second-directory-links li a {
+    color: rgb(230, 230, 230);
+}
+
+#second-directory-links li:before {
+    content: ">>";
+    padding-right: 5px;
+    color: rgb(255, 255, 0);
+    font-size: 8px;
+    vertical-align: 3px;
+}
+
+#main-content {
+    display: inline-block;
+    width: 670px;
+}
+
+#main-content p {
+    line-height: 1.3;
+    width: 620px;
+    text-align: center;
+    display: inline-block;
+    margin: 25px 0 0 35px;
+    padding: 0 0 0 0;
+    color: rgb(230, 230, 230);
+    font-size: 14px;
+}
+
+.colored-quotes {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.colored-quotes h2 {
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(240, 213, 82);
+}
+
+#target-h2 {
+    color: rgb(230, 230, 230);
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#middle-content {
+    border-top: 3px solid black;
+    margin-top: 20px;
+    width: 970px;
+    height: 280px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.border {
+    display: inline-block;
+    vertical-align: top;
+    border-top: 6px solid rgb(75, 139, 190);
+    margin: 15px 7px 0px 7px;
+    padding: 10px;
+} 
+
+#getting-started {
+    display: inline-block;
+    width: 400px;
+}
+
+#getting-started h3 {
+    width: 330px;
+}
+
+#getting-started p {
+    margin-top: 10px;
+    width: 330px;
+    font-size: 15px;
+}
+
+#getting-started ul {
+    margin-top: 5px;
+    width: 289px;
+    margin-left: 20px;
+}
+
+#getting-started ul li {
+    margin-bottom: 5px;
+}
+
+#getting-started ul li a {
+    color: rgb(75, 139, 190);
+}
+
+#applications {
+    display: inline-block;
+    width: 400px;
+}
+
+#applications h3 {
+    width: 330px;
+}
+
+#applications p {
+    margin-top: 10px;
+    width: 330px;
+    font-size: 15px;
+}
+
+#applications ul {
+    width: 289px;
+    margin-left: 20px;
+}
+
+#applications ul li {
+    margin-bottom: 5px;
+}
+
+#applications p a {
+    color: rgb(75, 139, 190);
+}
+
+#applications ul li a {
+    color: rgb(75, 139, 190);
+}
+
+#footer {
+    text-align: center;
+    height: 120px;
+    background-color: rgb(48, 105, 152);
+    background-image: linear-gradient(rgb(48, 105, 152),rgb(75, 139, 190));
+}
+
+#footer-ul li {
+    display: inline-block;
+    font-size: 19px;
+    margin: 0 25px 0 25px;
+    padding: 55px 0 0 0;
+}
+
+#footer-ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+#footer h6 {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 10px;
+}
