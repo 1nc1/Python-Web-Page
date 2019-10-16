@@ -1,2 +1,2 @@
 # Python-Web-Page
-Clickable Prototype of Python's old documentation web page.
+Python's old documentation web page using only HTML/CSS.
